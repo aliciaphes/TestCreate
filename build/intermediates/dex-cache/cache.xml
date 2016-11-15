@@ -2,202 +2,220 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.8.0_3523ffae757534d1f1678cdf3b55fb7ac095cf82.jar" />
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.8.0_8316a6ac7e374a4eb5e92ec5f22c9d3a31b38bd2\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.8.0_9afd23e073b6f561dbd2484e8887e4eb39dc4cf2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_82cf82515cbfb7f9103ffe7de5c0aa937e29d246.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.github.hotchemi\permissionsdispatcher\2.0.7\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="29af0f4b1d0f855e54d965157ab303ccd0a033d0">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\com.github.hotchemi-permissionsdispatcher-2.0.7_c14910f165c569afaa0f5af3a52a3e0813303842.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_abf832c82ace37dc75d501f70ec67624424c3902.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.astuetz\pagerslidingtabstrip\1.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7912610ed96381c25c36d986eba422731b9641b6">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\com.astuetz-pagerslidingtabstrip-1.0.1_f467b473524a563752387d36f46a4ed7b52cd3c9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.8.0_ad23d73296abd880be681de53229711c43a52468.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_0a0d36d5ef8c1a0eae171fb74264869ec690e744.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_ce2ef4d60fe76c4265379147fe4cf6ec3299fa20.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_d6a654fda6025ef9a5aa2f02f608c4ef33397562.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_c7d7fb4f05ed2a163d377e6ca5d3f1343365a5a2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_90f7df9be69e4334da13ab3cce7ecc75a2a55d66.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_1aa2e3e6b1eb330f1d15be26196582d8facc6080.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_f4204ce1d0f819e4ed7e40b679436c587257792b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_17d8d51e9b75310239db6d482fc2ca75c066d6ad.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_88efe29d03857056035082e8886ec52b9ca97efb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.8.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-9.8.0_4b005aaefb2a64433a346ea78fcf3648e6b917b7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_2e53b9fc5be4bf5811e1ed8e96609dfda1d7f3e3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_430b1e099057eafcb0390443e9762db34d1b8f70.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Owner\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_45ac97cb4bf03484b3de0b395d8aa7841353c561.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.8.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.8.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-9.8.0_81a066d74d7358f6cb055926b37a698c9c0dcea1.jar" />
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.8.0_767d85c4336fd6286412f9e6ca7bc05763ab0baa\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.astuetz\pagerslidingtabstrip\1.0.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="C:\Users\Owner\Desktop\dev\Android\CodePath\Bootcamp\Week_5\TestCreate\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_716dac88b3fcaee7b305bffbd2b838bb986f1dce.jar" />
+        sha1="7912610ed96381c25c36d986eba422731b9641b6">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.astuetz-pagerslidingtabstrip-1.0.1_346775948e2026489bf2dc8e2785f480a16549e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_5a200e74104330e3067f299058e00357de6228cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_7a8ab157ded7f61cd2be3812abde7d9333fc467d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_d8d0607ba7e6e44ab1d5b0f3963247d18ebbce91\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_70dfa060316efb614706ee5dcba9ca4be531024f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_a0776f3f09673c57aea1188c2179a0e9241b8207\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_0f7292c04c7f30e19405f63d7a78d7634601554e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_c55226212e48b259f8b6bd87adf3793acf503293\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_a3260aab98baadc829028f37524274b16ae4cf43\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_c7c04db71612b0233d0040d358c9d0cc272f0607\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_33df381707fef42c41ed6c3adff99c1a2e8c590a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_11662e26fa8a2c996089f7fec0a71e46c599fdf9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.github.hotchemi\permissionsdispatcher\2.0.7\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="29af0f4b1d0f855e54d965157ab303ccd0a033d0">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.hotchemi-permissionsdispatcher-2.0.7_74bc6a7624d18fd6e2ed377641bd4965510293a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.8.0_c27d8d78238ce51d2651f179ed4a5b66c1ec4cf6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c3dab4b0e024beabc2be3bb4122f80d5e063216">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_449f070785d332de716514f821da12feaa65d9b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_5f6c3ac1325055ca1535e152a56c835e075c95d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_f736c80bb33b31c668bb9072401e954b32cc7179\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_f10a7f68705a7ddbfaaf7e04a83b4ea1f1606ba0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.8.0_4b4880d511cd2fbe51f47549f615aeb4ce74d639\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_8580341bcced8e477e94ef95eed283869a7ba955\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9614cc000cc85da7db170bfc1bcf4105be6cccf5">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7392986bfe0f0cb5fe36b9e6260aec85bdcfe306\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
+        <dex dex="C:\Users\i850478\AndroidStudioProjects\TestCreate\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.8.0_0c3dc00fb1528807607822d06a5774977aff8f8f\classes.dex" />
     </item>
 
 </items>

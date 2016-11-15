@@ -21,6 +21,8 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapView;
+import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 
@@ -34,6 +36,7 @@ public class PlacesFragment extends Fragment implements LocationListener {
     private final static int CONNECTION_FAILURE_RESOLUTION_REQUEST = 9000;
 
     private FragmentManager sfm;
+    private MapView mMapView;
     private GoogleMap map;
     private SupportMapFragment mapFragment;
     private GoogleApiClient mGoogleApiClient;
@@ -52,6 +55,8 @@ public class PlacesFragment extends Fragment implements LocationListener {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_places, container, false);
+        mMapView = (MapView) v.findViewById(R.id.map);
+        mMapView.onCreate(savedInstanceState);
         buildMap();
         return v;
     }
@@ -69,25 +74,56 @@ public class PlacesFragment extends Fragment implements LocationListener {
     }
 
 
-
     private void loadMap() {
         if (TextUtils.isEmpty(getResources().getString(R.string.google_maps_api_key))) {
             throw new IllegalStateException("You forgot to supply a Google Maps API key");
         }
 
-        mapFragment = ((SupportMapFragment)sfm.findFragmentById(R.id.map));
-        if (mapFragment != null) {
-            mapFragment.getMapAsync(new OnMapReadyCallback() {
-                @Override
-                public void onMapReady(GoogleMap map) {
-                    drawMap(map);
-                }
-            });
-        } else {
-            Toast.makeText(activity, "Error - Map Fragment was null!!", Toast.LENGTH_SHORT).show();
-        }
-    }
+//        Fragment fragment = sfm.getFragments().get(0);
+//
+//        mapFragment = ((SupportMapFragment)sfm.findFragmentById(R.id.map));
+//        if (mapFragment != null) {
+//            mapFragment.getMapAsync(new OnMapReadyCallback() {
+//                @Override
+//                public void onMapReady(GoogleMap map) {
+//                    drawMap(map);
+//                }
+//            });
+//        } else {
+//            Toast.makeText(activity, "Error - Map Fragment was null!!", Toast.LENGTH_SHORT).show();
+//        }
 
+        //mMapView.onResume();// needed to get the map to display immediately
+
+        try {
+            MapsInitializer.initialize(getActivity().getApplicationContext());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
+        mMapView.getMapAsync(new OnMapReadyCallback() {
+            @Override
+            public void onMapReady(GoogleMap googleMap) {
+
+                if (googleMap != null) {
+
+                    map = googleMap;
+
+                    map.setMapType(GoogleMap.MAP_TYPE_HYBRID);
+                    //map.setMyLocationEnabled(true);
+                    map.setTrafficEnabled(true);
+                    map.setIndoorEnabled(true);
+                    map.setBuildingsEnabled(true);
+                    map.getUiSettings().setZoomControlsEnabled(true);
+                }else {
+                    Toast.makeText(activity, "Error - Map was null", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+
+    }
 
 
     @SuppressWarnings("all")
@@ -110,7 +146,6 @@ public class PlacesFragment extends Fragment implements LocationListener {
     }
 
 
-
     private void drawMap(GoogleMap map) {
         this.map = map;
         if (map != null) {
@@ -126,7 +161,6 @@ public class PlacesFragment extends Fragment implements LocationListener {
     public void onLocationChanged(Location location) {
 
     }
-
 
 
     private boolean isGooglePlayServicesAvailable() {

@@ -3,5 +3,21 @@
     android:layout_height="match_parent">
 
 
+    <TextView
+        android:text="Dummy textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="197dp"
+        android:id="@+id/textView" />
 
+    <Button
+        android:text="Dummy Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:id="@+id/button" />
 </RelativeLayout>
