@@ -691,8 +691,46 @@
                     "startLine": 38,
                     "startColumn": 4,
                     "startOffset": 4674,
+                    "endColumn": 103,
+                    "endOffset": 4773
+                },
+                "from": {
+                    "file": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.8.0\\res\\values-hi\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 233,
+                        "endColumn": 99,
+                        "endOffset": 332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 4778,
+                    "endColumn": 94,
+                    "endOffset": 4868
+                },
+                "from": {
+                    "file": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.8.0\\res\\values-hi\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 333,
+                        "endColumn": 90,
+                        "endOffset": 423
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 4873,
                     "endColumn": 78,
-                    "endOffset": 4748
+                    "endOffset": 4947
                 },
                 "from": {
                     "file": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-hi\\values-hi.xml",
@@ -707,11 +745,11 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 4753,
+                    "startOffset": 4952,
                     "endColumn": 100,
-                    "endOffset": 4849
+                    "endOffset": 5048
                 },
                 "from": {
                     "file": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-hi\\values-hi.xml",

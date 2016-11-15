@@ -12,6 +12,14 @@
         "source": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
+        "merged": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\powered_by_google_light.png",
+        "source": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.8.0\\res\\drawable-mdpi-v4\\powered_by_google_light.png"
+    },
+    {
+        "merged": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\powered_by_google_dark.png",
+        "source": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.8.0\\res\\drawable-mdpi-v4\\powered_by_google_dark.png"
+    },
+    {
         "merged": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png",
         "source": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
@@ -54,6 +62,10 @@
     {
         "merged": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png",
         "source": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\places_ic_search.png",
+        "source": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.8.0\\res\\drawable-mdpi-v4\\places_ic_search.png"
     },
     {
         "merged": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
@@ -146,6 +158,10 @@
     {
         "merged": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_normal.9.png",
         "source": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\places_ic_clear.png",
+        "source": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.8.0\\res\\drawable-mdpi-v4\\places_ic_clear.png"
     },
     {
         "merged": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png",
