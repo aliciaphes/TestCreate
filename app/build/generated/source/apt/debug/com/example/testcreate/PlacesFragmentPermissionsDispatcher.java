@@ -5,29 +5,29 @@ import java.lang.String;
 import permissions.dispatcher.PermissionUtils;
 
 final class PlacesFragmentPermissionsDispatcher {
-  private static final int REQUEST_GETCURRENTLOCATION = 0;
+  private static final int REQUEST_MYPLACES = 0;
 
-  private static final String[] PERMISSION_GETCURRENTLOCATION = new String[] {"android.permission.ACCESS_FINE_LOCATION","android.permission.ACCESS_COARSE_LOCATION"};
+  private static final String[] PERMISSION_MYPLACES = new String[] {"android.permission.ACCESS_FINE_LOCATION","android.permission.ACCESS_COARSE_LOCATION"};
 
   private PlacesFragmentPermissionsDispatcher() {
   }
 
-  static void getCurrentLocationWithCheck(PlacesFragment target) {
-    if (PermissionUtils.hasSelfPermissions(target.getActivity(), PERMISSION_GETCURRENTLOCATION)) {
-      target.getCurrentLocation();
+  static void myPlacesWithCheck(PlacesFragment target) {
+    if (PermissionUtils.hasSelfPermissions(target.getActivity(), PERMISSION_MYPLACES)) {
+      target.myPlaces();
     } else {
-      target.requestPermissions(PERMISSION_GETCURRENTLOCATION, REQUEST_GETCURRENTLOCATION);
+      target.requestPermissions(PERMISSION_MYPLACES, REQUEST_MYPLACES);
     }
   }
 
   static void onRequestPermissionsResult(PlacesFragment target, int requestCode, int[] grantResults) {
     switch (requestCode) {
-      case REQUEST_GETCURRENTLOCATION:
-      if (PermissionUtils.getTargetSdkVersion(target.getActivity()) < 23 && !PermissionUtils.hasSelfPermissions(target.getActivity(), PERMISSION_GETCURRENTLOCATION)) {
+      case REQUEST_MYPLACES:
+      if (PermissionUtils.getTargetSdkVersion(target.getActivity()) < 23 && !PermissionUtils.hasSelfPermissions(target.getActivity(), PERMISSION_MYPLACES)) {
         return;
       }
       if (PermissionUtils.verifyPermissions(grantResults)) {
-        target.getCurrentLocation();
+        target.myPlaces();
       }
       break;
       default:
