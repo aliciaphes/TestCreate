@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\Owner\\Desktop\\dev\\Android\\CodePath\\Bootcamp\\Week_5\\TestCreate\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Owner\\Desktop\\dev\\Android\\CodePath\\Bootcamp\\Week_5\\TestCreate\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }

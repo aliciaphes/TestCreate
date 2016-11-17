@@ -1,4 +1,7 @@
-#Tue Nov 15 20:20:33 EST 2016
-base.0=C\:\\Users\\Owner\\Desktop\\dev\\Android\\CodePath\\Bootcamp\\Week_5\\TestCreate\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Thu Nov 17 16:40:24 EST 2016
+base.0=C\:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7392986bfe0f0cb5fe36b9e6260aec85bdcfe306
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=C\:\\Users\\Owner\\Desktop\\dev\\Android\\CodePath\\Bootcamp\\Week_5\\TestCreate\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.1=C\:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_449f070785d332de716514f821da12feaa65d9b4\\classes.dex
+base.1=C\:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_449f070785d332de716514f821da12feaa65d9b4
+file.0=C\:\\Users\\i850478\\AndroidStudioProjects\\TestCreate\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7392986bfe0f0cb5fe36b9e6260aec85bdcfe306\\classes.dex

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.testcreate">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
     <!-- Maps and PlacePicker also require OpenGL ES version 2 -->
     <uses-feature
@@ -30,9 +32,9 @@
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="@string/google_maps_api_key" />
 
-        <meta-data
+<!--        <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_places_api_key" />
+            android:value="@string/google_places_api_key" />-->
 
     </application>
 
