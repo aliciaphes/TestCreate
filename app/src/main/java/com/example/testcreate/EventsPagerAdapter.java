@@ -20,7 +20,7 @@ public class EventsPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         //once created, they will be automatically cached
         if (position == 0) {
-            return new PlacesFragment3();
+            return new PlacesFragment(); //PlacesFragment2 works PERFECTLY, DO NOT TOUCH
         } else if (position == 1) {
             return new FriendsFragment();
         } else {

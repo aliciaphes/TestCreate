@@ -37,15 +37,23 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-        <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="@string/google_maps_api_key" />
+
+        <!--
+            If you are using the Maps API then you can use the same key
+        (com.google.android.geo.API_KEY)
+        and both APIs will work.
+        -->
+
 
         <!--
             <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_api_key" />
+        -->
+
+        <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_places_api_key" />
-        -->
 
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"

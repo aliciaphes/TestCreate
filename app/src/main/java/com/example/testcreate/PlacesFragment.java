@@ -11,6 +11,7 @@ import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -22,12 +23,12 @@ import com.google.android.gms.location.places.Places;
 import com.google.android.gms.location.places.ui.PlacePicker;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.MapView;
-import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 
 import permissions.dispatcher.NeedsPermission;
 import permissions.dispatcher.RuntimePermissions;
@@ -43,7 +44,7 @@ public class PlacesFragment extends Fragment implements GoogleApiClient.OnConnec
     private int PLACE_PICKER_REQUEST = 1;
 
     private FragmentManager sfm;
-    private MapView mMapView;
+    //private MapView mMapView;
     private GoogleMap map;
     private Place place;
     private SupportMapFragment mapFragment;
@@ -71,11 +72,18 @@ public class PlacesFragment extends Fragment implements GoogleApiClient.OnConnec
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_places, container, false);
+        if (mapFragment == null) {
+//            mapFragment = ((SupportMapFragment) sfm.findFragmentById(R.id.map));
+            mapFragment = ((SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.map));
+        }
 
-        //locate the view
-        mMapView = (MapView) v.findViewById(R.id.map);
-
-        //myPlaces();
+        Button b = (Button) v.findViewById(R.id.button);
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                myPlaces();
+            }
+        });
         return v;
     }
 
@@ -110,8 +118,9 @@ public class PlacesFragment extends Fragment implements GoogleApiClient.OnConnec
                 Toast.makeText(activity, toastMsg, Toast.LENGTH_LONG).show();
 
                 //draw this on the map:
-                buildMap();
-
+                if (mapFragment != null) {
+                    buildMap();
+                }
             }
         }
     }
@@ -121,15 +130,17 @@ public class PlacesFragment extends Fragment implements GoogleApiClient.OnConnec
             throw new IllegalStateException("You forgot to supply a Google Maps API key");
         }
 
+
         //mMapView.onResume();// needed to get the map to display immediately
 
-        try {
-            MapsInitializer.initialize(activity.getApplicationContext());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        try {
+//            MapsInitializer.initialize(activity.getApplicationContext());
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
 
-        mMapView.getMapAsync(new OnMapReadyCallback() {
+
+        mapFragment.getMapAsync(new OnMapReadyCallback() {
             @Override
             public void onMapReady(GoogleMap googleMap) {
 
@@ -137,15 +148,14 @@ public class PlacesFragment extends Fragment implements GoogleApiClient.OnConnec
 
                     map = googleMap;
 
-                    map.setMapType(GoogleMap.MAP_TYPE_HYBRID);
-                    map.setTrafficEnabled(true);
-                    //map.setIndoorEnabled(true);
-                    map.setBuildingsEnabled(true);
-                    map.getUiSettings().setZoomControlsEnabled(true);
+//                    map.setMapType(GoogleMap.MAP_TYPE_HYBRID);
+//                    map.setTrafficEnabled(true);
+//                    //map.setIndoorEnabled(true);
+//                    map.setBuildingsEnabled(true);
+//                    map.getUiSettings().setZoomControlsEnabled(true);
 
-                    LatLng l = place.getLatLng();
-                    centerMapUsingLocation(l);
-                }else {
+                    centerMapUsingLocation();
+                } else {
                     Toast.makeText(activity, "Error - Map was null", Toast.LENGTH_SHORT).show();
                 }
             }
@@ -153,23 +163,30 @@ public class PlacesFragment extends Fragment implements GoogleApiClient.OnConnec
     }
 
 
-    public void centerMapUsingLocation(LatLng l){
+    public void centerMapUsingLocation() {
+        LatLng position = place.getLatLng();
+
         CameraPosition cameraPosition = new CameraPosition.Builder()
-                .target(l)      // Sets the center of the map to l
-                //.zoom(17)                   // Sets the zoom
+                .target(position)      // Sets the center of the map to l
+                .zoom(15)                   // Sets the zoom
                 //.bearing(90)                // Sets the orientation of the camera to east
                 //.tilt(30)                   // Sets the tilt of the camera to 30 degrees
                 .build();                   // Creates a CameraPosition from the builder
         map.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
+        //put a marker on the place selected:
+        map.addMarker(new MarkerOptions()
+                .position(position)
+                .title(place.getName().toString())
+                .snippet(place.getAddress().toString())
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
     }
-
-
 
 
 //    @SuppressWarnings("all")
 //    @NeedsPermission({Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION})
 //    void getCurrentLocation() {
 //    }
+
 
 
     @Override

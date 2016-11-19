@@ -5,28 +5,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<com.google.android.gms.maps.MapView xmlns:android="http://schemas.android.com/apk/res/android"
+    <fragment
         android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-
-    <!--    <TextView
-        android:text="Dummy textview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="197dp"
-        android:id="@+id/textView" />
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true" />
 
     <Button
-        android:text="Dummy Button"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="79dp"
-        android:id="@+id/button" />-->
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Place picker" />
 </RelativeLayout>
 
